@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея изображений</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1> Галерея</h1>
+        
+        <!-- Форма добавления -->
+        <div class="form">
+            <input type="text" id="imageUrl" placeholder="Ссылка на изображение">
+            <input type="text" id="imageTitle" placeholder="Название">
+            <button id="addBtn"> Добавить</button>
+        </div>
+
+        <!-- Галерея -->
+        <div class="gallery" id="galleryContainer">
+            <!-- Картинки будут здесь -->
+        </div>
+
+        <!-- Пустое состояние -->
+        <div class="empty" id="emptyMessage">
+            <p> Нет изображений</p>
+            <p style="font-size:14px;color:#999;">Добавьте первую картинку!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
